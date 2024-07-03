@@ -1,4 +1,4 @@
-FROM cypress/browsers:node18.12.0-chrome107
+FROM cypress/browsers:node-20.14.0-chrome-126
 MAINTAINER SharinPix <dev@sharinpix.com>
 
 RUN sh -c "echo '127.0.0.1   app.sharinpix.com' >> /etc/hosts"
