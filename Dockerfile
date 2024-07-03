@@ -1,4 +1,4 @@
-FROM docker pull cypress/base:20.14.0
+FROM cypress/base:20.14.0
 MAINTAINER SharinPix <dev@sharinpix.com>
 
 RUN sh -c "echo '127.0.0.1   app.sharinpix.com' >> /etc/hosts"
