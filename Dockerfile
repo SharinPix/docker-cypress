@@ -1,4 +1,4 @@
-FROM cypress/base:20.14.0
+FROM cypress/base:22.19.0
 MAINTAINER SharinPix <dev@sharinpix.com>
 
 RUN apt-get update
